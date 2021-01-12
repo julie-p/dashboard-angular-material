@@ -1,3 +1,4 @@
+import { RouterModule } from '@angular/router';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { HeaderComponent } from './components/header/header.component';
@@ -25,7 +26,8 @@ import { MatListModule } from '@angular/material/list';
     MatButtonModule,
     FlexLayoutModule,
     MatMenuModule,
-    MatListModule
+    MatListModule,
+    RouterModule
   ], 
   exports: [
     HeaderComponent,
